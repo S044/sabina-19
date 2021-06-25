@@ -1,0 +1,229 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+
+
+ol,ul,dl{ margin:0 ;
+    padding:0 ;
+}
+
+a{text-decoration: none;}
+ul{list-style: none;}
+
+html,body,.wrapper{
+    width: 100%;
+    height:100% ;
+  
+    
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:#5733217a;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+ 
+}
+
+.container-1{
+    width: 100%;
+    max-width:1200px;
+    margin:0 auto;
+    padding: 0 15px;
+    
+}
+  
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.nav-bar ul li{
+   display: inline-block;
+   margin-left:25px ;
+}
+
+
+.nav-bar ul li a {
+   font-size: 15px;
+   color: white;
+ }
+ 
+.nav-bar ul li a:hover {
+    color: rgb(231, 230, 230);
+  }
+
+
+  .nav-logo{
+    color: white;
+    font-size: 35px;
+
+}
+
+
+
+
+
+/* ---------------main--------------#1cad87--------- */
+
+
+
+
+
+main{
+    scroll-behavior: smooth;
+}
+
+
+
+.container-2{
+display: grid;
+margin: 25px;
+
+}
+
+
+.card{
+    margin: 10px;
+    padding: 10px;
+   border-top: 80%;
+
+
+
+
+}
+
+
+ .card-img-top{
+     height: 300px;
+     object-fit: cover;
+ }
+
+
+.col{
+   margin-bottom: 3%;
+} 
+
+
+
+.font-400{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.font-300{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+.container-about-img{
+
+    width:100%;
+    height:400px ;
+    display:flex;
+    
+}
+
+
+
+.card-img-one{
+    background-image: url(../img/img\ 2.jpg);
+    margin: 45px 0;
+    text-align: center;
+  
+
+}
+
+
+.card-img-one h3{
+    font-size: 24px;
+}
+
+
+.h4{
+   
+    text-align: center;
+}
+
+
+
+
+.bg-dark{
+
+    margin-top: 300px;
+    background-color: rgb(20, 20, 20) !important;
+  
+  
+  }
+  
+   .carousel .slide{
+      max-width: 100%;
+     
+  } 
+  
+  .modal .fade{
+      margin:30px;
+  }
+  
+  
+  .container-2{
+    flex-wrap: wrap;
+    
+ 
+}
+
+
+
+  @media (min-width: 768px){
+  .container, .container-md, .container-sm {
+      max-width:  991px;
+  }
+} 
+  
+
+
+
+  @media (max-width:  991px){
+  .container, .container-sm {
+     max-width: 640px;
+     flex-direction: column; 
+  }
+  }
+ 
+
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom:1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+
+body {
+
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: white;
+    
+}
+
+
